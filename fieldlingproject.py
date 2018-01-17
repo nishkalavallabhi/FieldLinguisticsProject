@@ -1,6 +1,8 @@
 """
 Purpose is to get the closest sound to the given sound from the IPA sounds inventory
 Uses opensmile for getting sound file audio features, and returns the nearest IPA sounds using KDTree
+
+I am running this file from OpenSmile Installation folder. 
 """
 
 import sys,subprocess,os,math
