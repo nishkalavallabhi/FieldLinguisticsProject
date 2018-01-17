@@ -4,3 +4,9 @@ I am attending a field linguistics class, and we ran into this issue of differen
 the same sound into different IPA transcriptions. I wondered if we can come up with a simple way to look
 for a closest match in IPA alphabet automatically. I thought OpenSmile is a good starting point - and thus, 
 this project began.
+
+Step 1: Get all mp3 files from [an IPA sounds repo](http://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAsounds/) (wget)
+Step 2: Convert them all to wav (mpg123)
+Step 3: Extract audio features for all these wav files (OpenSmile)
+Step 4: For a given wav file, return the most similar sounds from IPA based on distance between audio feature vectors (Python)
+
