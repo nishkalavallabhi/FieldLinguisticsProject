@@ -6,7 +6,11 @@ for a closest match in IPA alphabet automatically. I thought OpenSmile is a good
 this project began.
 
 Step 1: Get all mp3 files from [an IPA sounds repo](http://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAsounds/) (wget)
+
 Step 2: Convert them all to wav (mpg123)
+
 Step 3: Extract audio features for all these wav files (OpenSmile)
+
 Step 4: For a given wav file, return the most similar sounds from IPA based on distance between audio feature vectors (Python)
+
 
