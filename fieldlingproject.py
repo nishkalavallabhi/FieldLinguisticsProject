@@ -39,7 +39,7 @@ def load_features_IPA(ipa_features_path):
     return sounds,features
 
 def get_similar_sounds(sound_feat,ipafeats,sounds):
-    tree = spatial.KDTree(ipafeats)
+    tree = spatial.KDTree(ipafeats) #use k=i to get i nearest neighbors instead of the closest one.
     return sounds[tree.query(sound_feat)[1]]
    
 #dir_path = str(sys.argv[1])
