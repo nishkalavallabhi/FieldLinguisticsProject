@@ -15,4 +15,4 @@ Step 4: For a given wav file, return the most similar sounds from IPA based on d
 TODO:
 - Take one sound, and possible IPA sounds (3 or 4 of them) which are related to this, and rank only those.
 - Having a small GUI with drop-down for IPA sounds, so that non-Technically minded people can quickly use this. 
-- Use some python based speech library instead of OpenSmile (e.g., [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) or [python_speech_features](https://github.com/jameslyons/python_speech_features)
+- Use some python based speech library instead of OpenSmile (e.g., [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) or [python_speech_features](https://github.com/jameslyons/python_speech_features))
