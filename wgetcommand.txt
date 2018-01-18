@@ -1,0 +1,1 @@
+wget -A"*.mp3" -r -l 1 -nd http://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAsounds/
