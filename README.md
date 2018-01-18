@@ -1,4 +1,4 @@
-# FiedLinguisticsProject
+# Field Linguistics Project
 
 I am attending a Field Linguistics class taught by Dr Sinem Sonsaat at Iowa State University. In the first week of classes, we ran into this issue of different people transcribing  the same sound into different IPA transcriptions. I wondered if we can come up with a simple way to look for a closest match in IPA alphabet automatically. I thought OpenSmile is a good starting point - and thus, this project began.
 
